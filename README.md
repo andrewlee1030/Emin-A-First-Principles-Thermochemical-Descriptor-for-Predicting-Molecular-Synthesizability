@@ -4,11 +4,10 @@
 This repository holds the code for the publication: XXX.
 
 The dependencies for running these scripts include:
-    - rdkit
-    - numpy
-    - pandas
-    - matplotlib
-    - 
+* rdkit
+* numpy
+* pandas
+* matplotlib 
 
 The code here should be sufficient for reproducing the main paper figures. To reproduce all figures, please follow the following steps. Numbered scripts within a directory should be run in numerical order.
 

@@ -1,7 +1,7 @@
 
 # Introduction
 
-This repository holds the code for the publication: XXX.
+This repository holds the code for the publication: [Lee et al. JCIM (2024)](https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01583#).
 
 The dependencies for running these scripts include:
 * rdkit
@@ -21,3 +21,7 @@ The code here should be sufficient for reproducing the main paper figures. To re
 3. Use the Mordred descriptor calculator in **Computing Mordred Features for QM9** to compute general descriptors for ML. This will take the file from step 1 (now with all calculated other scores from step 2), calculate Mordred descriptors, and write a new file to this step's directory.
     - install Mordred from here: https://github.com/mordred-descriptor/mordred
 4. Open **Reproduce paper figures** and run each script in any order. 
+
+## Computing E<sub>min</sub> on New Molecules
+
+We have also made an application for evaluating E<sub>min</sub> on arbitrary molecules: https://github.com/HydrogenStorage/molecular-stability-computer
